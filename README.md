@@ -1,6 +1,6 @@
-# Basic Google Drive Video Downloader
+# Simple Google Drive Video Downloader (Bypasses Download, Duplicate, Print, Email Restrictions)
 
-Extension tải video từ Google Drive đơn giản và hiệu quả.
+Extension tải video từ Google Drive đơn giản khi bị chặn tải xuống, tạo bản sao, in, email.
 
 ## Cách cài đặt
 
