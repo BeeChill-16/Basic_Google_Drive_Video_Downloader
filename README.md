@@ -1,4 +1,4 @@
-# Google Drive Video Downloader
+# Basic Google Drive Video Downloader
 
 Extension tải video từ Google Drive đơn giản và hiệu quả.
 
