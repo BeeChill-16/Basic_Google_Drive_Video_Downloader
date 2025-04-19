@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Google Drive Video Downloader",
+    "version": "1.0",
+    "description": "Download videos from Google Drive",
+    "permissions": [
+      "webRequest",
+      "downloads",
+      "tabs"
+    ],
+    "host_permissions": [
+      "https://*.google.com/*",
+      "https://*.googleusercontent.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://drive.google.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
